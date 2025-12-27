@@ -1,18 +1,19 @@
 # Node
 node_modules/
-
-# Build outputs
-dist/
-build/
+npm-debug.log
+yarn-error.log
 
 # Capacitor / Android
-android/app/build/
-android/.gradle/
-android/capacitor-cordova-android-plugins/
+android/
+build/
+.gradle/
+.capacitor/
+*.iml
 
-# Env
-.env
-
-# OS
+# System
 .DS_Store
 Thumbs.db
+
+# IDE
+.vscode/
+.idea/
