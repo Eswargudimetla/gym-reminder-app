@@ -1,0 +1,18 @@
+# Node
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Capacitor / Android
+android/app/build/
+android/.gradle/
+android/capacitor-cordova-android-plugins/
+
+# Env
+.env
+
+# OS
+.DS_Store
+Thumbs.db
